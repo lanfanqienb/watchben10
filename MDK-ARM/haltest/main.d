@@ -31,9 +31,12 @@ haltest\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
 haltest\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 haltest\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 haltest\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+haltest\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+haltest\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 haltest\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 haltest\main.o: ../Core/Inc/adc.h
 haltest\main.o: ../Core/Inc/dma.h
+haltest\main.o: ../Core/Inc/tim.h
 haltest\main.o: ../Core/Inc/usart.h
 haltest\main.o: ../Core/Inc/gpio.h
 haltest\main.o: ../app/scheduler.h
@@ -41,8 +44,11 @@ haltest\main.o: ../app/mydefine.h
 haltest\main.o: C:\keil5\ARM\ac5\Bin\..\include\stdio.h
 haltest\main.o: C:\keil5\ARM\ac5\Bin\..\include\string.h
 haltest\main.o: C:\keil5\ARM\ac5\Bin\..\include\stdarg.h
-haltest\main.o: ../app/scheduler.h
 haltest\main.o: C:\keil5\ARM\ac5\Bin\..\include\math.h
+haltest\main.o: ../app/sys.h
+haltest\main.o: ../app/mydefine.h
+haltest\main.o: ../app/sys.h
+haltest\main.o: ../app/scheduler.h
 haltest\main.o: ../Components/ringbuffer/ringbuffer.h
 haltest\main.o: C:\keil5\ARM\ac5\Bin\..\include\assert.h
 haltest\main.o: ../app/usart_app.h
@@ -51,6 +57,9 @@ haltest\main.o: ../app/usart_app.h
 haltest\main.o: ../app/adc_app.h
 haltest\main.o: ../app/mydefine.h
 haltest\main.o: ../app/adc_app.h
+haltest\main.o: ../app/dht11_app.h
+haltest\main.o: ../app/mydefine.h
+haltest\main.o: ../app/dht11_app.h
 haltest\main.o: ../app/mq2_app.h
 haltest\main.o: ../app/mydefine.h
 haltest\main.o: ../app/mq2_app.h

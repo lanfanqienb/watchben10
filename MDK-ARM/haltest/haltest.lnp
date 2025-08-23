@@ -4,6 +4,7 @@
 "haltest\gpio.o"
 "haltest\adc.o"
 "haltest\dma.o"
+"haltest\tim.o"
 "haltest\usart.o"
 "haltest\stm32f4xx_it.o"
 "haltest\stm32f4xx_hal_msp.o"
@@ -32,6 +33,7 @@
 "haltest\adc_app.o"
 "haltest\usart_app.o"
 "haltest\mq2_app.o"
+"haltest\dht11_app.o"
 --library_type=microlib --strict --scatter "haltest\haltest.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -1,17 +1,20 @@
 #include "stdio.h"
 #include "string.h"
 #include "stdarg.h"
-
-#include "main.h"
-#include "scheduler.h"
 #include "math.h"
 
+#include "main.h"
+#include "sys.h"
+#include "tim.h"
+
+#include "scheduler.h"
 #include "ringbuffer.h"
 
 
 #include "usart_app.h"
 #include "adc_app.h"
 
+#include "dht11_app.h"
 #include "mq2_app.h"
 
 

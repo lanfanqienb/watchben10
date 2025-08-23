@@ -4,6 +4,7 @@ haltest\scheduler.o: ..\app\mydefine.h
 haltest\scheduler.o: C:\keil5\ARM\ac5\Bin\..\include\stdio.h
 haltest\scheduler.o: C:\keil5\ARM\ac5\Bin\..\include\string.h
 haltest\scheduler.o: C:\keil5\ARM\ac5\Bin\..\include\stdarg.h
+haltest\scheduler.o: C:\keil5\ARM\ac5\Bin\..\include\math.h
 haltest\scheduler.o: ../Core/Inc/main.h
 haltest\scheduler.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 haltest\scheduler.o: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -36,9 +37,14 @@ haltest\scheduler.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.
 haltest\scheduler.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 haltest\scheduler.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 haltest\scheduler.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+haltest\scheduler.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+haltest\scheduler.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 haltest\scheduler.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+haltest\scheduler.o: ..\app\sys.h
+haltest\scheduler.o: ..\app\mydefine.h
+haltest\scheduler.o: ..\app\sys.h
+haltest\scheduler.o: ../Core/Inc/tim.h
 haltest\scheduler.o: ..\app\scheduler.h
-haltest\scheduler.o: C:\keil5\ARM\ac5\Bin\..\include\math.h
 haltest\scheduler.o: ../Components/ringbuffer/ringbuffer.h
 haltest\scheduler.o: C:\keil5\ARM\ac5\Bin\..\include\assert.h
 haltest\scheduler.o: ..\app\usart_app.h
@@ -47,6 +53,9 @@ haltest\scheduler.o: ..\app\usart_app.h
 haltest\scheduler.o: ..\app\adc_app.h
 haltest\scheduler.o: ..\app\mydefine.h
 haltest\scheduler.o: ..\app\adc_app.h
+haltest\scheduler.o: ..\app\dht11_app.h
+haltest\scheduler.o: ..\app\mydefine.h
+haltest\scheduler.o: ..\app\dht11_app.h
 haltest\scheduler.o: ..\app\mq2_app.h
 haltest\scheduler.o: ..\app\mydefine.h
 haltest\scheduler.o: ..\app\mq2_app.h

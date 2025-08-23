@@ -4,6 +4,7 @@ haltest\mq2_app.o: ..\app\mydefine.h
 haltest\mq2_app.o: C:\keil5\ARM\ac5\Bin\..\include\stdio.h
 haltest\mq2_app.o: C:\keil5\ARM\ac5\Bin\..\include\string.h
 haltest\mq2_app.o: C:\keil5\ARM\ac5\Bin\..\include\stdarg.h
+haltest\mq2_app.o: C:\keil5\ARM\ac5\Bin\..\include\math.h
 haltest\mq2_app.o: ../Core/Inc/main.h
 haltest\mq2_app.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 haltest\mq2_app.o: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -36,11 +37,16 @@ haltest\mq2_app.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
 haltest\mq2_app.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 haltest\mq2_app.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 haltest\mq2_app.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+haltest\mq2_app.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+haltest\mq2_app.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 haltest\mq2_app.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+haltest\mq2_app.o: ..\app\sys.h
+haltest\mq2_app.o: ..\app\mydefine.h
+haltest\mq2_app.o: ..\app\sys.h
+haltest\mq2_app.o: ../Core/Inc/tim.h
 haltest\mq2_app.o: ..\app\scheduler.h
 haltest\mq2_app.o: ..\app\mydefine.h
 haltest\mq2_app.o: ..\app\scheduler.h
-haltest\mq2_app.o: C:\keil5\ARM\ac5\Bin\..\include\math.h
 haltest\mq2_app.o: ../Components/ringbuffer/ringbuffer.h
 haltest\mq2_app.o: C:\keil5\ARM\ac5\Bin\..\include\assert.h
 haltest\mq2_app.o: ..\app\usart_app.h
@@ -49,6 +55,9 @@ haltest\mq2_app.o: ..\app\usart_app.h
 haltest\mq2_app.o: ..\app\adc_app.h
 haltest\mq2_app.o: ..\app\mydefine.h
 haltest\mq2_app.o: ..\app\adc_app.h
+haltest\mq2_app.o: ..\app\dht11_app.h
+haltest\mq2_app.o: ..\app\mydefine.h
+haltest\mq2_app.o: ..\app\dht11_app.h
 haltest\mq2_app.o: ..\app\mq2_app.h
 haltest\mq2_app.o: ../Core/Inc/adc.h
 haltest\mq2_app.o: ../Core/Inc/usart.h
