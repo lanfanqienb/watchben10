@@ -1,21 +1,28 @@
-#include "stdio.h"
-#include "string.h"
-#include "stdarg.h"
-#include "math.h"
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
 
 #include "main.h"
 #include "sys.h"
 #include "tim.h"
+#include "i2c.h"
 
-#include "scheduler.h"
 #include "ringbuffer.h"
 
+#include "inv_mpu.h"
+#include "inv_mpu_dmp_motion_driver.h"
+#include "dmpKey.h"
+#include "dmpmap.h"
 
+#include "scheduler.h"
 #include "usart_app.h"
 #include "adc_app.h"
 
 #include "dht11_app.h"
 #include "mq2_app.h"
+#include "mpu6050.h"
 
 
 extern UART_HandleTypeDef huart1;

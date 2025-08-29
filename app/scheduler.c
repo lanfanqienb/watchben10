@@ -21,7 +21,9 @@ static task_t scheduler_task[] =
     {led_proc, 1, 0},  // 定义一个任务，任务函数为 Led_Proc，执行周期为 10 毫秒，初始上次运行时间为 0
 		{uart_task,10,0},
 		//{mq2_task,100,0},
-		{dht11_task,100,0},
+		//{dht11_task,100,0},
+		{mpu6050_task,10,0},
+		
 };
 
 /**
@@ -34,6 +36,7 @@ void scheduler_init(void)
     uart_init();
 	  mq2_dma_init();
 	  DHT11_Init(); // DHT11 温湿度传感器初始化
+	  mpu6050_init();
 	  task_num = sizeof(scheduler_task) / sizeof(task_t);
 }
 
